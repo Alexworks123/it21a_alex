@@ -1,0 +1,21 @@
+{
+  "labels": ["Speed", "Strength", "Agility", "Endurance", "Flexibility"],
+  "datasets": [
+    {
+      "label": "Athlete A",
+      "data": [80, 90, 70, 85, 75],
+      "fill": true,
+      "backgroundColor": "rgba(255, 99, 132, 0.2)",
+      "borderColor": "rgb(255, 99, 132)",
+      "pointBackgroundColor": "rgb(255, 99, 132)"
+    },
+    {
+      "label": "Athlete B",
+      "data": [65, 75, 80, 60, 95],
+      "fill": true,
+      "backgroundColor": "rgba(54, 162, 235, 0.2)",
+      "borderColor": "rgb(54, 162, 235)",
+      "pointBackgroundColor": "rgb(54, 162, 235)"
+    }
+  ]
+}
