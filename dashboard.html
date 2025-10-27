@@ -12,50 +12,35 @@
   />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-  <style>
-    
-    body {
-      background-color: #f7f7f7;
-      text-align: center;
-      padding: 20px;
-    }
+  <title>Dashboard</title>
 
-    h1 {
-      margin-bottom: 30px;
-      color: #2c2f33;
-    }
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    .container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      background-color: #e2e6ea;
-      padding: 20px;
-      border-radius: 10px;
-    }
+    <style>
+        .container{
+            display:flex;
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
 
-    canvas {
-      background-color: white;
-      padding: 10px;
-      border-radius: 8px;
-      max-width: 500px;
-    }
-  </style>
 </head>
 <body>
-  <h1>Dashboard</h1>
+    <h1>Dashboard</h1>
+    <canvas id="linechart"></canvas>
+    <canvas id="radarChart"></canvas>
 
-  <div class="container">
-    <div>
-      <canvas id="linechart"></canvas>
+    <div class="container">
+        <div>
+             <canvas id="linechart"></canvas>
+        </div>
+        <div>
+            <canvas id="radarChart"></canvas>
+        </div>
     </div>
-    <div>
-      <canvas id="radarChart"></canvas>
-    </div>
-  </div>
-
-  <script src="dashboard.js"></script>
+   
 </body>
+    <script src="dashboard.js"></script>
 </html>
 
  
