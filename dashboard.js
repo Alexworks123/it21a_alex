@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radar Chart</title>
+ <head>
+      <meta chartset=" UTF-8">
+      <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+      <title>Tittle Chart</title>
+      <script>src="http://cdn.jsdelivr.net/npm/chart.js"</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
+</head>   
 <body>
-    <h1>DashBoard</h1>
+     <h1>Line Chart</h1>
+     <dev> 
+       <canvas> id="MyChart"</canvas>
+       <canvas> id="LineChart"</canvas>
+    </dev>
    
-        <canvas> id="LineChart"</canvas>
-        <canvas id="radarChart"></canvas>
-        
-
-</body>
- <script src=" dashboard.js"></script>
-</html>
+   <script>
